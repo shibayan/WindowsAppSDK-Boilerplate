@@ -18,7 +18,6 @@
                 <ColumnDefinition x:Name="IconColumn" Width="Auto" />
                 <ColumnDefinition x:Name="TitleColumn" Width="Auto" />
                 <ColumnDefinition x:Name="DragColumn" Width="*" />
-                <ColumnDefinition x:Name="ProfileIconColumn" Width="Auto" />
                 <ColumnDefinition x:Name="RightPaddingColumn" Width="0" />
             </Grid.ColumnDefinitions>
             <Image x:Name="TitleBarIcon"
