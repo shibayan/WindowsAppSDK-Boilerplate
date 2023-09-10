@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ModernTitleBarWithTabView (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ModernTitleBarWithTabView (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="ModernTitleBarWithTabView.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <TabView x:Name="AppTabView" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <TabViewItem Header="Home" IsClosable="False">
+            <TabViewItem.IconSource>
+                <SymbolIconSource Symbol="Home" />
+            </TabViewItem.IconSource>
+
+            <WebView2 Source="https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/" />
+        </TabViewItem>
+        <TabViewItem Header="Document 0">
+            <TabViewItem.IconSource>
+                <SymbolIconSource Symbol="Document" />
+            </TabViewItem.IconSource>
+        </TabViewItem>
+        <TabViewItem Header="Document 1">
+            <TabViewItem.IconSource>
+                <SymbolIconSource Symbol="Document" />
+            </TabViewItem.IconSource>
+        </TabViewItem>
+        <TabViewItem Header="Document 2">
+            <TabViewItem.IconSource>
+                <SymbolIconSource Symbol="Document" />
+            </TabViewItem.IconSource>
+        </TabViewItem>
+
+        <TabView.TabStripHeader>
+            <Grid x:Name="LeftPaddingInset" Background="Transparent" />
+        </TabView.TabStripHeader>
+        <TabView.TabStripFooter>
+            <Grid x:Name="RightPaddingInset" Background="Transparent" />
+        </TabView.TabStripFooter>
+    </TabView>
+
+</Window>

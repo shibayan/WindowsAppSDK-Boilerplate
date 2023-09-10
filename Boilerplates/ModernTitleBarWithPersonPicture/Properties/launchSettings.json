@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ModernTitleBarWithPersonPicture (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ModernTitleBarWithPersonPicture (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
