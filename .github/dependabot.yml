@@ -5,7 +5,17 @@
 
 version: 2
 updates:
-  - package-ecosystem: "nuget" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "nuget"
+    directory: "/Boilerplates/ModernTitleBar"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "nuget"
+    directory: "/Boilerplates/ModernTitleBarWithPersonPicture"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "nuget"
+    directory: "/Boilerplates/ModernTitleBarWithTabView"
     schedule:
       interval: "weekly"
