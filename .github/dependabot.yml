@@ -6,16 +6,9 @@
 version: 2
 updates:
   - package-ecosystem: "nuget"
-    directory: "/Boilerplates/ModernTitleBar"
-    schedule:
-      interval: "weekly"
-
-  - package-ecosystem: "nuget"
-    directory: "/Boilerplates/ModernTitleBarWithPersonPicture"
-    schedule:
-      interval: "weekly"
-
-  - package-ecosystem: "nuget"
-    directory: "/Boilerplates/ModernTitleBarWithTabView"
+    directories:
+      - "/Boilerplates/ModernTitleBar"
+      - "/Boilerplates/ModernTitleBarWithPersonPicture"
+      - "/Boilerplates/ModernTitleBarWithTabView"
     schedule:
       interval: "weekly"
